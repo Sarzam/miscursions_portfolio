@@ -14,7 +14,7 @@ export const ISSUE_META = {
   volume: "Vol. I",
   edition: "Misbah Special Edition",
   tagline: "Builder. Thinker. Creator.",
-  date: "July 2026",
+  date: "May 2026",
   price: "Priceless",
 };
 
@@ -158,7 +158,7 @@ export const BRAND_STORY = {
 export const BACK_COVER = {
   quote: "Be weird. Be useful. Be unforgettable.",
   cta: "Follow @miscursions",
-  portrait: "https://images.pexels.com/photos/34750099/pexels-photo-34750099.jpeg",
+  portrait: "/cover/c2.jpeg",
 };
 
 export const EASTER_EGG = {
