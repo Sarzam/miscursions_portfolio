@@ -1,0 +1,8 @@
+/* miscursions — App-level styles */
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Do not center-align the app container */
