@@ -46,8 +46,8 @@ export const SOCIALS = [
   { platform: "X (Twitter)", handle: "@miscursions", url: "https://x.com/miscursions", icon: "twitter" },
   { platform: "YouTube", handle: "@miscursions", url: "https://youtube.com/@miscursions", icon: "youtube" },
   { platform: "Medium", handle: "@miscursions", url: "https://medium.com/@miscursions", icon: "medium" },
-  { platform: "LinkedIn", handle: "Misbah Shaikh", url: "https://linkedin.com/in/misbahshaikh", icon: "linkedin" },
-  { platform: "GitHub", handle: "misbahshaikh", url: "https://github.com/misbahshaikh", icon: "github" },
+  { platform: "LinkedIn", handle: "Misbah Shaikh", url: "https://linkedin.com/in/misbahsrshaikh", icon: "linkedin" },
+  { platform: "GitHub", handle: "misbahshaikh", url: "https://github.com/Sarzam", icon: "github" },
 ];
 
 export const EDUCATION = [
