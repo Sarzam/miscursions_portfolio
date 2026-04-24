@@ -2,17 +2,17 @@
 // This file will be replaced/augmented by backend integration later.
 
 export const COVER_IMAGES = [
-  "https://images.unsplash.com/photo-1631330612137-07b3a03f7cf1",
-  "https://images.unsplash.com/photo-1619982719549-0f4fc3d7b526",
-  "https://images.unsplash.com/photo-1591132412169-fa19698a045b",
-  "https://images.unsplash.com/photo-1640660331726-33230b5ef5ad",
-  "https://images.pexels.com/photos/34750099/pexels-photo-34750099.jpeg",
+  "/cover/c1.jpeg",
+  "/cover/c2.jpeg",
+  "/cover/c3.jpeg",
+  "/cover/c4.jpeg",
+  "/cover/c5.jpeg",
 ];
 
 export const ISSUE_META = {
   issueNumber: "No. 01",
   volume: "Vol. I",
-  edition: "Super Special Edition",
+  edition: "Misbah Special Edition",
   tagline: "Builder. Thinker. Creator.",
   date: "July 2026",
   price: "Priceless",

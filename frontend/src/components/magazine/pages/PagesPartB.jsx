@@ -141,7 +141,7 @@ export const OpeningCoverPage = forwardRef((props, ref) => (
         <div className="smallcaps text-[10px] text-plum/70">No. 01 · Vol. I</div>
       </div>
       <div>
-        <div className="smallcaps text-[10px] text-oxblood">A Super Special Edition</div>
+        <div className="smallcaps text-[10px] text-oxblood">A Misbah Special Edition</div>
         <h1 className="display text-5xl md:text-7xl ink-grad leading-[0.9] mt-2">Open carefully.</h1>
         <p className="display italic text-plum text-2xl md:text-3xl mt-2">You are about to meet a person in full.</p>
       </div>

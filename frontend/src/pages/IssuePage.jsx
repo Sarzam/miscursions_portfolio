@@ -17,8 +17,7 @@ import {
   BackCoverPage,
   OpeningCoverPage,
 } from "../components/magazine/pages/PagesPartB";
-import { ChevronLeft, ChevronRight, Download } from "lucide-react";
-import { toast } from "sonner";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const IssuePage = () => {
   const book = useRef(null);
@@ -52,12 +51,6 @@ const IssuePage = () => {
   const goPrev = () => book.current?.pageFlip()?.flipPrev();
   const goNext = () => book.current?.pageFlip()?.flipNext();
 
-  const handleDownload = () => {
-    toast("Resume PDF coming soon.", {
-      description: "Misbah's signed-off PDF will live here. For now, flip on.",
-    });
-  };
-
   return (
     <div className="relative min-h-screen w-full paper grain overflow-hidden">
       <MagazineTopBar showBack />
@@ -66,12 +59,7 @@ const IssuePage = () => {
         <div className="flex items-end justify-between mb-4">
           <div>
             <div className="smallcaps text-[10px] text-oxblood">Now Reading</div>
-            <h1 className="display text-2xl md:text-4xl text-plum leading-tight">The Special Edition</h1>
-          </div>
-          <div className="hidden md:flex items-center gap-2">
-            <button onClick={handleDownload} className="btn-editorial ghost">
-              <Download size={14} /> Download Resume
-            </button>
+            <h1 className="display text-2xl md:text-4xl text-plum leading-tight">The Misbah Special Edition</h1>
           </div>
         </div>
 
@@ -151,7 +139,6 @@ const IssuePage = () => {
             <button onClick={goNext} className="md:hidden btn-editorial ghost">Next <ChevronRight size={14} /></button>
           </div>
           <div className="smallcaps text-[10px] text-plum/70 tabular-nums">Page {String(Math.min(page + 1, total)).padStart(2, "0")} / {total}</div>
-          <button onClick={handleDownload} className="md:hidden btn-editorial ghost"><Download size={14} /> Resume</button>
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-between gap-2 text-[10px] smallcaps text-plum/60 border-t border-plum/20 pt-4">

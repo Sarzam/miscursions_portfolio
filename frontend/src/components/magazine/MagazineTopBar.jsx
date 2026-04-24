@@ -19,7 +19,7 @@ const MagazineTopBar = ({ showBack = false }) => {
             miscursions<span className="text-oxblood">.</span>
           </Link>
           <span className="hidden md:inline text-[10px] smallcaps text-plum/60 dark:text-cream/60 border border-plum/30 dark:border-cream/30 rounded-full px-2 py-0.5">
-            Super Special Edition
+            Misbah Special Edition
           </span>
         </div>
         <nav className="flex items-center gap-4 text-[11px] smallcaps">

@@ -110,7 +110,7 @@ const CoverPage = () => {
 
               {/* Side teaser */}
               <div className="absolute left-4 top-14 max-w-[180px] md:max-w-[220px]">
-                <div className="inline-block bg-cream text-plum px-2 py-1 text-[10px] smallcaps">FEATURE</div>
+                <div className="inline-block px-2 py-1 text-[10px] smallcaps feature-pill">FEATURE</div>
                 <p className="mt-2 text-cream display text-lg md:text-2xl leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.4)]">
                   Inside the <span className="italic">Miscursions</span> Manifesto.
                 </p>
