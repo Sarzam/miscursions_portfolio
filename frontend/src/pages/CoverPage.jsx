@@ -174,7 +174,7 @@ const CoverPage = () => {
 
         {mounted && (
           <Link to="/secret-margin" className="fixed bottom-20 left-4 text-[10px] text-plum/40 dark:text-cream/40 hover:text-plum dark:hover:text-cream smallcaps" title="psst...">
-            · margin ·
+            ·  ·DO NOT CLICK·  ·
           </Link>
         )}
       </div>

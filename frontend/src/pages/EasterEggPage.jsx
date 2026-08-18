@@ -62,7 +62,7 @@ const EasterEggPage = () => {
           {sealed ? (
             <p className="mt-3 text-xs text-plum/70">Whisper the Konami code on your keyboard to break the seal. (↑↑↓↓←→←→ B A)</p>
           ) : (
-            <p className="mt-3 display italic text-oxblood text-xl">You broke the seal. Now go make the weird thing.</p>
+            <p className="mt-3 display italic text-oxblood text-xl">Hiii! YOU GOT IT! THE DISCOUNT CODE IS '7860'</p>
           )}
         </div>
       </div>

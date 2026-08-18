@@ -19,18 +19,18 @@ export const ISSUE_META = {
 };
 
 export const COVER_LINES = [
-  "Tech Thursdays",
-  "Math Mondays",
-  "Fashion Fridays",
+  "wHO IS SHE?",
+  "WHAT DOES SHE DO NOW?",
+  "WHAT EVEN IS MISCURSIONS?",
+  "ADVERTISEMENT 001",
   "A Home For Young Weirdos",
-  "Limited Edition",
-  "Engineer, Builder, Founder",
+  "CROSSWORD TO UNLOCK THE SECRET",
   "Inside: The Miscursions Manifesto",
 ];
 
 export const ABOUT = {
   headline: "Who is Misbah Shaikh?",
-  dek: "Engineer by degree. Builder by instinct. Storyteller by accident.",
+  dek: "Engineer by degree. Storyteller by instinct. Builder by accident.",
   body: "I build systems, brands, ideas, and sometimes chaos. I live where math meets mascara, where routing protocols meet runway posters. I am currently writing software at Cisco, studying Computer Science at NIT Surat, and building miscursions — a home for young weirdos who love more than one thing.",
   facts: [
     { label: "Based in", value: "India" },
