@@ -14,31 +14,31 @@ export const ISSUE_META = {
   volume: "Vol. I",
   edition: "Misbah Special Edition",
   tagline: "Builder. Thinker. Creator.",
-  date: "May 2026",
+  date: "AUG 2026",
   price: "Priceless",
 };
 
 export const COVER_LINES = [
-  "wHO IS SHE?",
-  "WHAT DOES SHE DO NOW?",
-  "WHAT EVEN IS MISCURSIONS?",
+  "Who is She?",
+  "What does She do?",
+  "What even is 'miscursions'?",
   "ADVERTISEMENT 001",
   "A Home For Young Weirdos",
-  "CROSSWORD TO UNLOCK THE SECRET",
+  "CROSSWORD (to unlock the secret page, solve the puzzle)",
   "Inside: The Miscursions Manifesto",
 ];
 
 export const ABOUT = {
   headline: "Who is Misbah Shaikh?",
   dek: "Engineer by degree. Storyteller by instinct. Builder by accident.",
-  body: "I build systems, brands, ideas, and sometimes chaos. I live where math meets mascara, where routing protocols meet runway posters. I am currently writing software at Cisco, studying Computer Science at NIT Surat, and building miscursions — a home for young weirdos who love more than one thing.",
+  body: "I build systems, brands, ideas, and sometimes chaos. My current venture is writing Timing software at Cisco and building miscursions — a home for young weirdos who don't have a single identity.",
   facts: [
-    { label: "Based in", value: "India" },
-    { label: "Currently", value: "Cisco Intern" },
+    { label: "Degree", value: "B.Tech. from NIT Surat" },
+    { label: "", value: "Cisco Intern" },
     { label: "School", value: "NIT Surat" },
     { label: "Founder of", value: "miscursions" },
   ],
-  pullquote: "I refuse to be one thing. I plan to be all of them well.",
+  pullquote: "If its cool, I'll do it.",
 };
 
 export const SOCIALS = [
