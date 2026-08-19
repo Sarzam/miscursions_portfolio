@@ -14,20 +14,31 @@ const ReaderCounter = () => {
       try {
         // Always show the latest number first
         const res = await axios.get(`${API}/reader/count`);
-        if (!cancelled) setCount(res.data.count);
+        if (!cancelled && Number.isFinite(Number(res.data?.count))) {
+          setCount(Number(res.data.count));
+        }
       } catch (e) {
         // fall back to a graceful placeholder
         if (!cancelled) setCount(null);
       }
       try {
         // Only count a visit once per browser session
-        if (!sessionStorage.getItem("mc-visited-session")) {
+        const hasVisited = sessionStorage.getItem("mc-visited-session");
+        if (!hasVisited) {
+          sessionStorage.setItem("mc-visited-session", "pending");
           const res2 = await axios.post(`${API}/reader/visit`);
           sessionStorage.setItem("mc-visited-session", "1");
-          if (!cancelled) setCount(res2.data.count);
+          if (!cancelled && Number.isFinite(Number(res2.data?.count))) {
+            setCount(Number(res2.data.count));
+          }
         }
       } catch (e) {
-        // swallow
+        // Permit retrying if the visit request or session storage failed.
+        try {
+          sessionStorage.removeItem("mc-visited-session");
+        } catch (_) {
+          // Ignore storage errors.
+        }
       }
     };
     run();
