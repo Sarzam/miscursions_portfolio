@@ -39,7 +39,9 @@ const ReaderCounter = () => {
   return (
     <div className="flex items-center gap-2 text-plum/70 dark:text-cream/70">
       <Eye size={14} />
-      <span className="tabular-nums">{count?.toLocaleString() ?? "—"}</span>
+      <span className="tabular-nums">
+        {count == null ? "—" : Number(count).toLocaleString()}
+      </span>
       <span>readers so far</span>
     </div>
   );

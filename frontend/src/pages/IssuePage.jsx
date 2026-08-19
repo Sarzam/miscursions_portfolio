@@ -119,7 +119,7 @@ const IssuePage = () => {
               <PageShell number="11" kicker="Margin Notes" title="Thank You For Reading" tone="cream">
                 <div className="flex flex-col h-full justify-between">
                   <p className="display-serif italic text-2xl md:text-3xl text-plum leading-snug">
-                    If you made it here, you are exactly the kind of reader miscursions is for — the ones who finish what they start and still want the footnotes.
+                    Thats the end, reach out if you wanna discuss any and all cool stuff!
                   </p>
                   <div className="flex items-center justify-between">
                     <span className="smallcaps text-[10px] text-plum/70">With love,</span>
@@ -142,7 +142,7 @@ const IssuePage = () => {
         </div>
 
         <div className="mt-8 flex flex-wrap items-center justify-between gap-2 text-[10px] smallcaps text-plum/60 border-t border-plum/20 pt-4">
-          <span>Tip: swipe on mobile, or drag the page corners on desktop</span>
+          <span>*all em dashes((—)) are human generated</span>
           <span>miscursions · A collector's edition</span>
         </div>
       </div>
